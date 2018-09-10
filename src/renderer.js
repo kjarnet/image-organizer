@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom'
 import App from './app'
 
 ReactDOM.render(
-<App name={'World'} />,
+<App albumPath={'../../Pictures'} />,
 document.getElementById('app')
 );
 
