@@ -1,0 +1,35 @@
+{
+  "name": "image-organizer",
+  "version": "0.0.1",
+  "description": "Yet another image organizer",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel src --out-dir dist",
+    "start": "npm run build && electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kjarnet/image-organizer.git"
+  },
+  "keywords": [
+    "image"
+  ],
+  "author": "Øystein Kjærnet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kjarnet/image-organizer/issues"
+  },
+  "homepage": "https://github.com/kjarnet/image-organizer#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "electron": "^2.0.8"
+  },
+  "dependencies": {
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
+}
