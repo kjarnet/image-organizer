@@ -22,14 +22,14 @@
   },
   "homepage": "https://github.com/kjarnet/image-organizer#readme",
   "devDependencies": {
-    "@babel/cli": "^7.0.0",
-    "@babel/core": "^7.0.0",
-    "@babel/preset-env": "^7.0.0",
+    "@babel/cli": "^7.2.0",
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
-    "electron": "^2.0.8"
+    "electron": "^3.0.10"
   },
   "dependencies": {
-    "react": "^16.5.0",
-    "react-dom": "^16.5.0"
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3"
   }
 }
