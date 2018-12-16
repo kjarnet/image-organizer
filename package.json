@@ -23,10 +23,14 @@
   "homepage": "https://github.com/kjarnet/image-organizer#readme",
   "devDependencies": {
     "@babel/cli": "^7.2.0",
-    "@babel/core": "^7.2.0",
+    "@babel/core": "^7.2.2",
     "@babel/preset-env": "^7.2.0",
     "@babel/preset-react": "^7.0.0",
-    "electron": "^3.0.10"
+    "electron": "^3.0.12",
+    "eslint": "^5.10.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "prettier": "^1.15.3"
   },
   "dependencies": {
     "react": "^16.6.3",
